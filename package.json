@@ -1,0 +1,29 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghostchina/docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghostchina/docs/issues"
+  },
+  "homepage": "https://github.com/ghostchina/docs",
+  "devDependencies": {
+    "cheerio": "^0.19.0",
+    "extend": "^2.0.1",
+    "handlebars": "^3.0.2",
+    "handlebars-helpers": "^0.5.8",
+    "lodash": "^3.7.0",
+    "metalsmith": "^1.6.0",
+    "metalsmith-each": "^0.1.1",
+    "metalsmith-hbs": "0.0.3"
+  }
+}
