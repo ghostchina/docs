@@ -1,7 +1,8 @@
 #asset
 在你的主题中安全地使用资源文件
 
-用法：`{{asset "asset-path"}}`
+###用法
+`{{asset "asset-path"}}`
 ###简介
 使用`{{asset}}`可以免去资源文件管理的麻烦。首先，它能够保证相对路径始终是正确的而不用考虑Ghost是如何安装的。即使Ghost是安装在子目录中，在不使用绝对路径的情况下资源的路径仍然是正确的。  
 
@@ -14,14 +15,17 @@
 如果需要在主题中使用`{{asset}}`输出一个资源文件，只需要提供它在`assets`目录中的位置。
 
 css代码:
+
 ```html
 <link rel="stylesheet" type="text/css" href="{{asset "css/style.css"}}" />
 ```
 js代码：
+
 ```html
 <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 ```
 主题的图片：
+
 ```html
 <img src="{{asset "images/my-image.jpg"}}" />
 ```
@@ -33,6 +37,7 @@ Favicons的使用和其它的资源文件的获取稍微有些不一样，因为
 默认情况下`{{asset "favicon.ico"}}`和浏览器的请求一样，都是返回`shared`目录下的favicon，这意味着不管博客使用的是什么主题甚至主题目录是否存在。  
 
 如果你希望使用自定义的favicon，你可以将`favicon.ico`文件放在主题的`assets`目录中，并在页面中使用
+
 ```html
 {{asset "/favicon.ico"}}
 ```

@@ -1,7 +1,8 @@
 #author
 输出一篇文章的作者的详细信息
 
-用法：`{{author}}` 或者 `{{#author}}{{/author}}`
+###用法
+`{{author}}` 或者 `{{#author}}{{/author}}`
 
 ###简介
 author助手可以作为一个输出或者一个块级元素，它提供了各种获取文章作者信息的方式。
@@ -30,9 +31,10 @@ author助手可以作为一个输出或者一个块级元素，它提供了各�
 * bio - 作者的个人简介
 * location - 作者所在地
 * website - 作者的个人网站
-* image - 作者的头像[image助手](http://themes.ghost.org/v0.6.0/docs/image)
+* image - 作者的头像[image助手](./image.md)
 * cover - 作者的封面
-* url - 作者的个性网址[url助手](http://themes.ghost.org/v0.6.0/docs/url)
+* url - 作者的个性网址[url助手](./url.md)
+
 ###示例代码
 ```html
 {{#post}}

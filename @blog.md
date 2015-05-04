@@ -19,4 +19,4 @@
     <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
  </nav>
 ```
-> 点击[navigation](http://themes.ghost.org/v0.6.0/docs/navigation)查看如何在主题中使用导航
+> 点击[navigation](./navigation.md)查看如何在主题中使用导航
