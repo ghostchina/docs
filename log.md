@@ -14,7 +14,7 @@
 
 现在，Ghost 运行在 development 模式时，你可以使用 `{{log}}` 助手函数向服务器端的控制台窗口输出调试信息。具体来说，你可以让 handlebars 输出数据对象或者当前 handlebars 的上下文环境（context）的详细内容。
 
-例如，输出 handlebars 当前可以访问的完整的上下文（'context'）数据：
+例如，输出 handlebars 当前可以访问的完整的上下文（ 'context' ）数据：
 
 `{{log this}}`
 
